@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "speedread"
+version = "0.1.0"
+description = ""
+authors = [""]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pypdf = "^4.1.0"
+anthropic = "^0.19.2"
+attrs = "^23.2.0"
+black = "^24.2.0"
+pdf2image = "^1.17.0"
+pytesseract = "^0.3.10"
+isort = "^5.13.2"
+openai = "^1.16.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
